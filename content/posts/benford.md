@@ -11,7 +11,7 @@ draft: false
 
 ## Benford's Law
 
-When you first hear of this, the thinking might go something like this: if you choose a number randomly, shouldn't the first digit be uniformly distributed? Even if the original distribution isn't uniform, as long as it covers a wide enough range, why would the *first digit* have any bias?
+When you first hear of it, the thinking might go something like this: if you choose a number randomly, shouldn't the first digit be uniformly distributed? Even if the original distribution isn't uniform, as long as it covers a wide enough range, why would the *first digit* have any bias?
 
 Explanations abound, but I find that they often miss the crucial point (like this otherwise fantastic [video](https://youtu.be/etx0k1nLn78) for example). Simply put, it is a direct consequence of the [log-uniform distribution](https://en.wikipedia.org/wiki/Reciprocal_distribution), which governs these "naturally occurring collections of numbers", e.g. measurements, population counts, etc. If you can accept that these natural collections tend to be log-normal distributed, Benford's Law is "obvious", that is, an unavoidable consequence. Some simply explain this empirically, giving examples. But I think there is more to it.
 
@@ -48,7 +48,7 @@ And the linear counterpart:
 
 These charts illustrate both laws, as described above -- but I'll elaborate.
 
-![Figure 1: Log-uniform random data](/benford/figure1.png)
+![Figure 1: Log-uniform random data](/img/benford/figure1.png)
 _Figure 1: Log-uniform random data_
 
 - 1a shows that log-uniform data follows a logarithmically-decreasing trend, *when viewed in the linear domain*.
@@ -58,7 +58,7 @@ _Figure 1: Log-uniform random data_
 
 And here are the corresponding charts for Drofben's law:
 
-![Figure 2: Linear-uniform random data](/benford/figure2.png)
+![Figure 2: Linear-uniform random data](/img/benford/figure2.png)
 _Figure 2: Linear-uniform random data_
 
 - 2a shows that linear-uniform data follows a constant trend, when viewed in the linear domain.
@@ -72,7 +72,7 @@ In the second case, these layers just reflect the counts of integers in ranges: 
 
 ## The digits are not the value
 
-![The treachery of digits: an homage to the treachery of images, where "This is not a number" refers to the hexadecimal representation of the floating-point value NaN, "Not a Number"](/benford/treachery-of-digits-hex.png)
+![The treachery of digits: an homage to the treachery of images, where "This is not a number" refers to the hexadecimal representation of the floating-point value NaN, "Not a Number"](/img/benford/treachery-of-digits-hex.png)
 _The treachery of digits, with apologies to [Magritte](https://en.wikipedia.org/wiki/The_Treachery_of_Images)... and [IEEE](https://en.wikipedia.org/wiki/NaN)_
 
 
