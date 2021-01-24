@@ -1,0 +1,4 @@
+<div class="admonition warning" style='border-left:4px solid #cd5f3c; padding-left:2em; font-size:16px; margin:2em 0'>
+    <div class="title">{{ .Get "title" | default "Warning" }}</div>
+    <div class="content">{{ printf "%s" .Inner | markdownify }}</div>
+</div>
