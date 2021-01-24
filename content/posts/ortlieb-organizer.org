@@ -2,7 +2,7 @@
 #+AUTHOR: Alan Bernstein
 #+DATE: 2020-05-10
 #+PUBLISHDATE: 2020-05-10
-#+TAGS[]: bike sewing project design
+#+TAGS[]: bike sewing project design log micro-optimization
 
 
 Project log for my organizer insert for Ortlieb Back Roller bike panniers.
@@ -11,12 +11,37 @@ Project log for my organizer insert for Ortlieb Back Roller bike panniers.
 
 * Current status
 
+v1.2, in active use.
+
+TODO:
+- attach more nylon webbing, for attaching other accessories to the side of the insert
+- sew new version with flaps that cover the frame pockets
+- record a video of the quick-release action
+
+
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/PXL_20210124_174351054.jpg]]
+/Mounted to bag. Photographing this thing is tricky./
+
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/PXL_20210124_174448037.jpg]]
+/Fidlock magnetic QR mount, female side, mounted to exterior of insert/
+
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/PXL_20210124_174506005.jpg]]
+/Fidlock magnetic QR mount, male side, mounted to interior of Ortlieb bag/
+
 
 * Iterations
 
-** v2: canvas, first version that /actually/ works (2020/05/09)
+** v1.2: Add magnetic quick-release mount
 
-** v1: ripstop nylon, first minimally viable version (2020/02/25)
+
+At this point, it works well enough that it has become part of my normal bike kit. Since I'm working from home until the apocalypse is over, I'm stopping here for now.
+
+** v1.1: Ripstop nylon, retrofitted with the through-the-frame lock mount
+One nice thing about sewing is that the stitching step is reversible. After learning from v2, I decided that I prefer the thinner nylon fabric, but the through-frame U-lock mount works much better than the surface-stitched version. So, not having any more fabric, and not having easy access to my laser cutter due to covid, I unstitched the first strap, and retrofitted the through-frame mount onto this bag.
+
+** v2: Canvas, first version that /actually/ works (2020/05/09)
+
+** v1: Ripstop nylon, first minimally viable version (2020/02/25)
 Having a decent idea what the pattern should be, it was now feasible to laser cut it. I cut these out:
 
 - Nylon: 2x base, 2x tall, .5" seam margin
@@ -31,7 +56,7 @@ After the cardboard prototype, I decided I was ready to take on the sewing proje
 
 The design was based on the cardboard model, with two broad sides and a thin strip connecting them to give it some volume. I got one big design suggestion at the meetup that allowed me to make progress on this: each side should have a sealable pocket to contain the plastic insert. With that in mind, this first version allowed me to test cutting the pattern, and the sewing process. It turned out that this fabric was awful to work with (very stretchy and very ragged edges), but I definitely learned enough to gain the confidence to work on the next version, with the good fabric.
 
-[[/img/ortlieb-organizer/2020-01-25 21.38.14.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-01-25 21.38.14.50.jpg]]
 
 I was proud of myself for documenting my learning process with the first bag, but it was not that helpful afterward. I changed the design, and I've already internalized the lessons I learned about sewing techniques. Probably most significantly, I abandoned the side strip idea. A laptop fits inside the bag without that added width, and I had a hard time keeping the three pieces of fabric properly aligned. I might want to use a similar approach for a different project later. 
 
@@ -48,44 +73,44 @@ Lessons learned:
 ** v0.1: cardboard and zip ties, proof-of-concept (2019/02/25)
 My first attempt was a cardboard mockup, held together with zip ties. This worked well enough to prove the concept. It disintegrated after a month or so.
 
-[[/img/ortlieb-organizer/IMG_20190224_215759905.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/IMG_20190224_215759905.jpg]]
 
-[[/img/ortlieb-organizer/IMG_20190224_225931398.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/IMG_20190224_225931398.jpg]]
 
 
 
 * Sewing process
 
-[[/img/ortlieb-organizer/2020-05-09 19.06.12.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.06.12.50.jpg]]
 
 Latest prototype in action. The two main features driving the structural design are the laptop pocket and the U-lock strap.
 I'm a sewing beginner, and this is my first design, so I'm learning, making things up as I go, and I probably don't know a lot of terms that I should. Despite that, I'm very satisfied with this second iteration. It's truly usable, but I hope to refine it, so I'll point out a few issues.
 
 
-[[/img/ortlieb-organizer/2020-05-09 19.05.29.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.05.29.50.jpg]]
 
 It goes inside this popular Ortlieb pannier. I'm avoiding any permanent modifications to the waterproof exterior. Still figuring out mounting options, but that's not a major concern, because normally the bag is full enough to keep the organizer in place.
 
-[[/img/ortlieb-organizer/2020-05-09 18.57.34.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 18.57.34.50.jpg]]
 
 My three prototypes: 
 - Orange: random scrap fabric, to experiment with the basic pattern, not really usable 
 - Blue: random ripstop nylon (specs unknown, but it's .1mm thick). Includes a sewn-on nylon strap to hold the lock.
 - Yellow: random canvas (.6mm thick). Includes a "through-the-frame" removable nylon strap+buckle to hold the lock.
 
-[[/img/ortlieb-organizer/2020-05-09 19.00.00.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.00.00.50.jpg]]
 
 Sewing the lock strap on the exterior, using this fabric, is not sturdy. U-locks are heavy, so it sags significantly.
 
-[[/img/ortlieb-organizer/2020-05-09 19.00.24.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.00.24.50.jpg]]
 
 Aside from the main pocket, each side has a mini-pocket just for storing a rigid plastic sheet to maintain the structure. I deliberately tucked the flap INSIDE the pocket rather than go over it. It made sense in my head, but it's clearly the wrong choice.
 
-[[/img/ortlieb-organizer/2020-05-09 19.01.09.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.01.09.50.jpg]]
 
 Trying to show detail of how the pockets are laid out.
 
-[[/img/ortlieb-organizer/2020-05-09 19.01.55.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.01.55.50.jpg]]
 
 Same idea for the yellow bag, but the flap closes over the pocket, and terminates on the outside of the bag rather than the inside. Much sturdier fabric, plus two velcro strips on the ends, instead of one in the middle, mean this bag holds its shape much more than the blue one.
 
@@ -93,28 +118,28 @@ Also shows the nylon strap going through the outer layer of the bag (via a "face
 
 This design allowed me to experiment with different insert combinations. There's plenty of weight to trim here.
 
-[[/img/ortlieb-organizer/2020-05-09 19.01.59.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.01.59.50.jpg]]
 
 Outside of the faced opening.
 
-[[/img/ortlieb-organizer/2020-05-09 19.02.11.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 19.02.11.50.jpg]]
 
 Detail of pocket layout
 
-[[/img/ortlieb-organizer/2020-05-09 21.01.29.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 21.01.29.50.jpg]]
 
 detail of pocket flap seam from outside
 
 
-[[/img/ortlieb-organizer/2020-05-09 21.03.11.50.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-09 21.03.11.50.jpg]]
 
 detail of pocket flap seam from inside
 
-[[/img/ortlieb-organizer/2020-05-11 01.58.58.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-11 01.58.58.jpg]]
 
 Detail of canvas inside-out.
 
-[[/img/ortlieb-organizer/2020-05-11 02.00.11.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/2020-05-11 02.00.11.jpg]]
 
 Detail of nylon inside-out.
 
@@ -122,20 +147,20 @@ Detail of nylon inside-out.
 
 Designing the fabric pattern was the first step. Since the Ortlieb bag includes a plastic insert to give it structure, using that exact shape seemed like the right way to go.
 
-[[/img/ortlieb-organizer/IMG_20190311_141939281.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/IMG_20190311_141939281.jpg]]
 
 I took some rough measurements of the irregular hexagon shape. I could have used these to get pretty close to the right shape. 
 
 
-[[/img/ortlieb-organizer/IMG_2626-ortlieb-template.25.jpg]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/IMG_2626-ortlieb-template.25.jpg]]
 
 However, I have an unreasonable propensity for unnecessary accuracy. I removed the insert, photographed it against a grid, then transformed that photo into vector files for laser cutting. This is great for cutting the pattern from fabric in a repeatable way. Unfortunately I can't use the laser for the plastic insert itself, so I cut that with a dremel. In the future I might try a bandsaw instead.
 
 
-[[/img/ortlieb-organizer/pattern-illustration.png]]
+[[https://alanbernstein.net/blog-static/img/ortlieb-organizer/pattern-illustration.png]]
 
 This is a color-coded illustration of the pattern files I used. 
-- <span style="color:red">Red</style>: plastic insert
+- Red: plastic insert
 - Black: mounting hole cutouts
 - Blue: "base" fabric pattern
 - Green: "tall" fabric pattern, including the flap that covers the mini-pocket for the plastic insert. 

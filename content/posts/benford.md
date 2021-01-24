@@ -2,6 +2,7 @@
 title: "Why Benford's Law is Obvious"
 date: 2020-11-28
 draft: false
+tags: ["math", "counter-intuitive"]
 ---
 
 [Benford's Law](https://en.wikipedia.org/wiki/Benford%27s_law) states that in many naturally occurring collections of numbers, the leading digit is likely to be small. I love math factoids like this, and I remember how deeply unintuitive this seemed when I first learned it. Now, I find myself looking for a way to explain how intuitive it really is.

@@ -9,7 +9,7 @@ I thought of a thing that I wanted, found that someone else had already done it,
 
 # more 
 
-[[/img/ambigram/true-false-ambigram.png]]
+[[https://alanbernstein.net/blog-static/img/ambigram/true-false-ambigram.png]]
 
 /[[http://www.anopticalillusion.com/2012/12/truefalse-ambigram-by-john-langdon/][Rotational trans-ambigram by John Langdon]]/
 
@@ -21,7 +21,7 @@ One day, I noticed one of those dishwasher clean/dirty magnets, and thought "Hey
 
 So that would have been a dead end, except the image was available in a halfway decent resolution. That means I should be able to hack it back into existence, so I set out to do just that.
 
-[[/img/ambigram/etsy-product-image.jpg]]
+[[https://alanbernstein.net/blog-static/img/ambigram/etsy-product-image.jpg]]
 
 /[[https://www.etsy.com/listing/175915541/clean-dirty-ambigram-dishwasher-magnet][Original Etsy product image]]/
 
@@ -39,7 +39,7 @@ Generally speaking, extracting a high-quality representation of an object, from 
 
 In the case of a known rectangle, there is a simple way to estimate the original perspective projection, invert it, and apply that inverse to the photo. This effectively maps whatever pattern is on the rectangle in the photo, to a new, properly rectangular region, like so:
 
-[[/img/ambigram/transformed.jpg]]
+[[https://alanbernstein.net/blog-static/img/ambigram/transformed.jpg]]
 
 /Perspective projection inverted/
 
@@ -60,16 +60,16 @@ Here is the full python code, because it's easy enough to embed here:
 
 The "hard" part is done - I have something pretty close to what I want for the final product - that just leaves the grunt work. The end goal is to produce a clean, black and white image, and there are different ways to go about that. Experience tells me that in this case, vectorizing the image will give the best result. I've used a few tools for this task, including some free web services, potrace, and Corel Draw. Here, Illustrator did the best job:
 
-[[/img/ambigram/vectorized.svg]]
+[[https://alanbernstein.net/blog-static/img/ambigram/vectorized.svg]]
 
 /Vectorized/
 
 This looks pretty good, at least around the letters. The finer details in the decorative border didn't turn out so well, but that's ok - I'm more into the minimal design with letters only. I removed all the border stuff, and did a little manual repair work on some of the letter edges.
 
-[[/img/ambigram/word-only-white-on-black.png]]
+[[https://alanbernstein.net/blog-static/img/ambigram/word-only-white-on-black.png]]
 
 /Final high-quality raster image/
 
 Perfect! All I had to do was get it printed on a magnet. I used [[https://www.purebuttons.com/][purebuttons]], which was great for a low-volume order. The final product:
 
-[[/img/ambigram/magnet-photo-both.jpg]]
+[[https://alanbernstein.net/blog-static/img/ambigram/magnet-photo-both.jpg]]
