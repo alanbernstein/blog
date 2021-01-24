@@ -24,7 +24,7 @@ I'm aware that this is an academic viewpoint - I'm using "obvious" facetiously h
 The linked video also presents a counterexample to Benford's law, plus a counterpart law with its corresponding counterexample. Paraphrased:
 
 > Benford's Law: most-significant digits are expected to be biased toward lower values with a logarithmic trend, *if* the range of values spans multiple orders of magnitude. 
->> Benford Counterexample (Biden votes) If the data spans just a single order of magnitude i.e. specifically [10^n, 10^(n+1)) so the number of digits is constant, then the first-digit distribution just reflects the data distribution itself. Benford's law is not *violated*, it is rather *not applicable*.
+>> Benford Counterexample (Biden votes): If the data spans just a single order of magnitude i.e. specifically [10^n, 10^(n+1)) so the number of digits is constant, then the first-digit distribution just reflects the data distribution itself. Benford's law is not *violated*, it is rather *not applicable*.
 
 > Last-digit test: least-significant digits are expected to be distributed uniformly, *if* the range of values is wide enough, relative to the precision of the values. 
 >>Last-digit counterexample (incumbent votes): If the data spans just a single, **low**, order of magnitude*, e.g. [10, 100), then "the last two digits are just *the digits*", so the last-digits distribution just reflects the data distribution itself. The last-digit test is not *violated*, it is rather *not applicable*.
@@ -51,6 +51,8 @@ These charts illustrate both laws, as described above -- but I'll elaborate.
 ![Figure 1: Log-uniform random data](/img/benford/figure1.png)
 _Figure 1: Log-uniform random data_
 
+This is a set of three views of the same random data set, following a log-uniform distribution.
+
 - 1a shows that log-uniform data follows a logarithmically-decreasing trend, *when viewed in the linear domain*.
 - 1b shows that log-uniform data follows a constant trend, when viewed in the (arguably more appropriate) logarithmic domain.
 - 1c shows Benford's law directly, with bar heights corresponding to first-digit bias. Note that this shape closely resembles the shape of the distribution in 1a -- it isn't identical, because 1c kind of "layers" the histograms from each level of magnitude in 1a, into a new form that examines only first digits instead of all values.
@@ -60,6 +62,8 @@ And here are the corresponding charts for Drofben's law:
 
 ![Figure 2: Linear-uniform random data](/img/benford/figure2.png)
 _Figure 2: Linear-uniform random data_
+
+This is a set of three views of another random data set, following a linear-uniform distribution.
 
 - 2a shows that linear-uniform data follows a constant trend, when viewed in the linear domain.
 - 2b shows that linear-uniform data follows an exponentially-increasing trend, when viewed in the logarithmic domain.
