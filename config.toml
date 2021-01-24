@@ -1,4 +1,4 @@
-baseURL = "http://aanbernstein.net/blog"
+baseURL = "http://alanbernstein.github.io"
 languageCode = "en-us"
 title = "The micro-optimist"
 theme = "notepadium"
