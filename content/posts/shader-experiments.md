@@ -70,7 +70,16 @@ void main() {
 With that blog post available, and a loose grasp of Mathematica syntax, it was easy enough to understand what's going on. It's a bit easier for me to grok in traditional notation:
 
 ![Equation](https://alanbernstein.net/blog-static/img/shader-experiments/planewave-math-white.png)
-<!-- didn't use latex because i don't want to figure out colors in hugo -->
+<!-- 
+
+can't figure out how to use colors in katex+hugo
+
+$$ \htmlStyle{color: lime;}{x} $$
+$$c = \abs{\mod\(\frac{Sz}{N}+1, 2\)-1}$$
+$$c = \mod\left(\frac{\htmlStyle{color:purple;}{S}z}{N}+1,2\right)$$
+
+-->
+
 
 In short, the thing is just a heightfield (z) created by summing <span style="color:lime">N</span> simple waves of equal magnitude, and distributed with rotational symmetry about the origin (the cos and sin terms are a rotation). <span style="color:blue">R</span> is a spatial zoom factor, and <span style="color:red">V</span> is animation speed. It's the <span style="color:purple">S</span> term in the "wrapping" step of computing the color \(c\) that really makes it interesting.
 

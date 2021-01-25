@@ -25,10 +25,10 @@ I'm aware that this is an academic viewpoint - I'm using "obvious" facetiously h
 The linked video also presents a counterexample to Benford's law, plus a counterpart law with its corresponding counterexample. Paraphrased:
 
 > Benford's Law: most-significant digits are expected to be biased toward lower values with a logarithmic trend, *if* the range of values spans multiple orders of magnitude. 
->> Benford Counterexample (Biden votes): If the data spans just a single order of magnitude i.e. specifically [10^n, 10^(n+1)) so the number of digits is constant, then the first-digit distribution just reflects the data distribution itself. Benford's law is not *violated*, it is rather *not applicable*.
+>> Benford Counterexample (Biden votes): If the data spans just a single order of magnitude (specifically [10^n, 10^(n+1)) so the number of digits is constant, then the first-digit distribution just reflects the data distribution itself. Benford's law is not *violated*, it is rather *not applicable*.
 
 > Last-digit test: least-significant digits are expected to be distributed uniformly, *if* the range of values is wide enough, relative to the precision of the values. 
->>Last-digit counterexample (incumbent votes): If the data spans just a single, **low**, order of magnitude*, e.g. [10, 100), then "the last two digits are just *the digits*", so the last-digits distribution just reflects the data distribution itself. The last-digit test is not *violated*, it is rather *not applicable*.
+>>Last-digit counterexample (incumbent votes): If the data spans just a single, **low**, order of magnitude, e.g. [10, 100), then the last two digits are just *the digits*, so the last-digits distribution just reflects the data distribution itself. The last-digit test is not *violated*, it is rather *not applicable*.
 
 There's a pleasing sort of duality here, and illustrating each of these with the two political parties' vote counts is pretty cute.
 
@@ -59,7 +59,7 @@ This is a set of three views of the same random data set, following a log-unifor
 - 1a shows that log-uniform data follows a logarithmically-decreasing trend, *when viewed in the linear domain*.
 - 1b shows that log-uniform data follows a constant trend, when viewed in the (arguably more appropriate) logarithmic domain.
 - 1c shows Benford's law directly, with bar heights corresponding to first-digit bias. Note that this shape closely resembles the shape of the distribution in 1a -- it isn't identical, because 1c kind of "layers" the histograms from each level of magnitude in 1a, into a new form that examines only first digits instead of all values.
-- 1d (aside from being kind of busy because I'm a bad graphic designer) shows where these "layers" come from. The black trace represents the determinstic values of the function first_digit(x) for all values of x in [1, 10000**. The green regions cover all numbers that start with 1, and they're widest -- that cumulatve width corresponds to the height of the bar for digit 1 in figure 1c. Red regions correspond to numbers that start with 2, with a more moderate cumulative width. Purple corresponds to 5, with a much smaller width, and similarly for all other digits.
+- 1d (aside from being kind of busy because I'm a bad graphic designer) shows where these "layers" come from. The black trace represents the determinstic values of the function first_digit(x) for all values of x in [1, 10000]. The green regions cover all numbers that start with 1, and they're widest -- that cumulatve width corresponds to the height of the bar for digit 1 in figure 1c. Red regions correspond to numbers that start with 2, with a more moderate cumulative width. Purple corresponds to 5, with a much smaller width, and similarly for all other digits.
 
 
 **This figure explains why Benford's Law is "obvious". It may be more clear to explain the logical progression of thought:**
@@ -88,7 +88,7 @@ In the second case, these layers just reflect the counts of integers in ranges: 
 
 ## The digits are not the value
 
-![The treachery of digits: an homage to the treachery of images, where "This is not a number" refers to the hexadecimal representation of the floating-point value NaN, "Not a Number"](/img/benford/treachery-of-digits-hex.png)
+![The treachery of digits: an homage to Magritte's The Treachery of Images, with "This is not a number" as a caption for the hexadecimal representation of the floating-point value NaN, "Not a Number"](/img/benford/treachery-of-digits-hex.png)
 _The treachery of digits, with apologies to [Magritte](https://en.wikipedia.org/wiki/The_Treachery_of_Images)... and [IEEE](https://en.wikipedia.org/wiki/NaN)_
 
 
