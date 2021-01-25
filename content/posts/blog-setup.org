@@ -1,0 +1,63 @@
+#+TITLE: Using Hugo and org-mode for a blog
+#+AUTHOR: Alan Bernstein
+#+DATE: 2017-09-30
+#+PUBLISHDATE: 2017-09-30
+#+TAGS[]: emacs projects
+
+I just set up this blog with Hugo. This is the story of why and how.
+
+# more
+
+This is also a boring test post for the new system.
+
+* Why
+
+I've been writing bloggy stuff for years, but never had a great way to share it. For a while I was pretty excited about using my own instance of Mediawiki. I wrote hundreds of pages of rambling nonsense, intricately linked, categorized and tagged, and put it online. I set up a bunch of custom templates, code syntax highlighting, and LaTeX support, among other things - Mediawiki has a great selection of extensions. I even had a grand plan for building an auto-updating mind map from page categories.
+
+Back then, my main goal was to capture ideas electronically, and that system worked well. Even the editing interface was nice, with a source/WYSIWYG toggle, formatting and syntax help, and a customized toolbar for snippets and templates. But it was a web interface, which eventually started to feel cumbersome (slow feedback cycle). Plus, the years of maintaining a php app on a cheap shared server were starting to take their toll. I don't remember if it was the stylesheet breaking, or my general loss of patience with the app, but for some reason, I eventually stopped updating it.
+
+Ever since, I've wanted to get that content back up in a more digestible form, backed by a more robust system. I'll probably backdate it to create the illusion of continuity. I've also written plenty of new stuff, which is sitting in piles of text files waiting for a home.
+
+* How
+
+The secondary goal was to make sure the capturing was done in some variety of [[http://www.linfo.org/plain_text.html][plaintext]]. In Mediawiki, it was wikitext, stored in MySQL, which was... at least plaintext in spirit. I had no trouble exporting all the page contents to text files; handling the markup is another story. There are lots of good reasons for wanting plaintext, but eventually I discovered the best one: [[http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][org-mode]]. I made plans to translate all the wikitext pages to org, and write or use some sort of static site generator, to mirror a public html blog directly from a local org folder. I did make a few steps in that direction ([[https://github.com/alanbernstein/post][see also]]), but never put any effort into a unified solution.
+
+Later, I encountered [[https://gohugo.io/][Hugo]], the trendy new static site generator, and it seemed like the obvious answer. The only thing left to do was automate the conversion of org files to html or markdown. Unfortunately, my enthusiasm for tinkering with emacs/org/elisp tapered off quickly. I'm happy with emacs as an IDE for code and structured notes, but the idea of using it as a component in generating blog pages was a big turn off.
+
+I started keeping track of [[https://pandoc.org/][some]] [[http://www.holgerschurig.de/tags/hugo/][possible]] [[https://github.com/fniessen/org-html-themes][solutions]] - or components of them at least - lots of other nerds are interested in using org for blogs. When I saw an announcement for [[https://ox-hugo.netlify.com/][ox-hugo]], I decided it was time to figure this thing out. In the process of setting up a deployment process that would handle the org-html export with ox-hugo, I found [[https://discourse.gohugo.io/t/org-mode-content-support-merged-into-hugo-master/5530][this]] announcement: as of February 2017, Hugo supports org-mode directly!
+
+This makes the workflow ideal:
+
+1. Use org-mode, in emacs, to write post content in files in a local directory.
+2. Run a single command to generate updated web content and push to my site.
+
+This post is the proof that it works! Because I am a devopeler extraordinaire, the command is (effectively):
+
+#+BEGIN_SRC sh
+hugo && rsync -rz --update public/* $WEBSITE/blog/.
+#+END_SRC
+
+Of course there is more work to do. I won't be satisfied without syntax highlighting and LaTeX support, but there is lower-hanging fruit I'll tackle first. Finding a theme is probably a good place to start.
+
+* Updates
+
+** 2017/10/05: Syntax highlighting
+Mostly working! It's basically just a couple lines in the config:
+
+#+BEGIN_SRC sh
+pygmentsCodeFences = true
+PygmentsStyle = "monokai"
+#+END_SRC
+
+Although I also had to figure out the proper syntax for the org-mode parser (~#+BEGIN_SRC sh~ for blocks, ~~tildes~~ for inline), and my test theme removes the line breaks from preformatted elements for some reason (fixed by hacking one style into layouts/_default/baseof.html). 
+
+** 2017/10/26: Equation rendering
+Works with KaTeX in `mmark` files! Some details [[../latex-with-hugo][here]].
+
+** 2017/10/31: Bokeh plots work!
+[[../plots-in-hugo][An example]].
+
+** 2021/01/24: Reboot
+I have abandoned my ad-hoc deployment system in favor of using github pages. Hugo project restarted from scratch, with a better theme ([notepadium](https://themes.gohugo.io/hugo-notepadium/)) and title. Hopefully I can reuse some of the customizations mentioned above. Blog repo is now at https://github.com/alanbernstein/blog. Not having it in a git repo in the first place was really dumb, but it's because the blog is photo-heavy, and I didn't want to put hundreds of MB of photos in the repo. I'm currently just linking to photos hosted on my personal website, but I'd like to figure out a better solution (https://github.com/alanbernstein/blog/issues/3).
+
+Math typesetting: previous solution depended on the mmark format, and hugo has deprecated support for this. Forunately, the notepadium theme has built-in support for math typesetting via Katex. It does "block mode" or "display mode" with no trouble, and "inline mode" isn't quite working (renders normal size inside a `<p>` element, instead of a smaller size as expected). Seems to be discussed here: https://github.com/cntrump/hugo-notepadium/issues/68, with corresponding fix https://github.com/cntrump/hugo-notepadium/commit/2452327e2b9b28f208389424d1f27abe12ec1672, but not sure if this is helpful. Oh well, Good enough for now... 
