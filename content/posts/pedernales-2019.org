@@ -1,0 +1,238 @@
+#+TITLE: Pedernales Overnight 2019
+#+AUTHOR: Alan Bernstein
+#+DATE: 2019-01-13 22:00
+#+PUBLISHDATE: 2019-01-13
+#+TAGS[]: travel hiking photography journal backpacking trip
+#+PLOTLY: true
+#+DRAFT: true
+
+After my [[../tanzania-1][Kilimanjaro trip]], I had almost everything I needed for self-supported backpacking. I decided to do a [[../big-bend-2019][3-night trip]] at Big Bend National Park with [[http://codysoyland.com/][Cody]], and prepare for it with a couple of shorter, closer trips. We started with a one-night trip to Pedernales Falls.
+
+
+# more
+
+* Gear
+
+[[file:../pedernales-2019/IMG_9281-annotated.jpg]]
+
+/Gear layout/
+
+| item                     | grams | notes                                                  |
+|--------------------------+-------+--------------------------------------------------------|
+| *pack+camp*              |       | -                                                      |
+| REI pack                 |       | pretty happy with the design, probably kinda heavy     |
+| kelty salida 1+footprint |       | bring footprint case. roll 3 pieces separately in pack |
+| nanowave 45 bag          |       | not warm enough                                        |
+| REI stratus pad          |       |                                                        |
+| inflatable pillow        |       |                                                        |
+| inflatable sit pad       |       | stacked pillow                                         |
+| *apparel*                |       | -                                                      |
+| Oboz boots               |       |                                                        |
+| smartwool boxers         |       |                                                        |
+| smartwool 250 top        |       |                                                        |
+| smartwool 250 bottom     |       |                                                        |
+| REI hiking pants         |       |                                                        |
+| nylon strap belt         |       |                                                        |
+| icebreaker merino tee    |       |                                                        |
+| uniqlo merino turtleneck |       |                                                        |
+| uniqlo down jacket       |       |                                                        |
+| down hood                |       |                                                        |
+| wool buff                |       |                                                        |
+| light gloves             |       |                                                        |
+| flip flops               |       | store in bottom of REI pack for easy access            |
+| baseball cap             |       |                                                        |
+| smartwool light socks    |       |                                                        |
+| darn tough mid socks     |       |                                                        |
+| wigwam thick sleep socks |       |                                                        |
+| *food+water*             |       | -                                                      |
+| osprey 3L bladder        |       |                                                        |
+| platypus 4L bladder      |       |                                                        |
+| 17oz vacuum bottle       |       |                                                        |
+| trail mix                |       |                                                        |
+| shot blox                |       |                                                        |
+| clif bar                 |       |                                                        |
+| chipotle tabasco         |       |                                                        |
+| spork                    |       |                                                        |
+| *personal*               |       | -                                                      |
+| toothbrush, paste, floss |       |                                                        |
+| bandana                  |       |                                                        |
+| hand towel               |       | maybe bring 2 - wiped tent condensation                |
+| wet wipes                |       | did not use                                            |
+| kleenex                  |       | did not use                                            |
+| hand sanitizer           |       | did not use                                            |
+| sunscreen                |       | did not use                                            |
+| chap stick               |       | did not use                                            |
+| toenail trimmer          |       | did not use                                            |
+| *other*                  |       | -                                                      |
+| glasses/sunglasses/case  |       |                                                        |
+| SOG multitool            |       | used flat screwdriver once                             |
+| headlamp                 |       | AAAx3                                                  |
+| microstream flashlight   |       | AAAx1, hangs from tent                                 |
+| mini knife (gerber)      |       |                                                        |
+| repair/med kit           |       |                                                        |
+| phone                    |       |                                                        |
+| battery                  |       |                                                        |
+| wallet+keys              |       |                                                        |
+| watch                    |       |                                                        |
+| kindle                   |       |                                                        |
+| kindle+pink case         |       |                                                        |
+| stuff sacks              |       | good for organization, dirty clothes                   |
+| shopping bags            |       | trash                                                  |
+| trash liners             |       | rain protection (gear)                                 |
+| disposable poncho        |       |                                                        |
+| notebook+pencil          |       | did not use                                            |
+| hand warmers             |       | did not use, despite near-freezing temp                |
+| *photography*            |       | -                                                      |
+| T6i DSLR                 |       |                                                        |
+| Tamron 10-24             |       |                                                        |
+| capture clip             |       |                                                        |
+| Canon 50                 |       | did not use                                            |
+| neck strap+remote        |       | did not use                                            |
+| mini tripod              |       | did not use                                            |
+
+
+Left behind:
+
+| item               | notes                                  |
+|--------------------+----------------------------------------|
+| rain jacket        | dry forecast                           |
+| bug spray          | winter                                 |
+| sun sleeves        | too cold                               |
+| mess kit + 2 meals | redundant - but forgot to take tea out |
+| beer               | meh                                    |
+
+Should've brought:
+- tea
+- corded earbuds
+- tent footprint case (to contain dirt)
+- water measuring of some sort (if carrying own mess kit)
+- foil for stove windshield (if carrying own mess kit)
+
+Not pictured: 
+- DSLR camera (T6i with Tamron 10-24 lens)
+- 1 clif bar
+- 1 bag meal
+- 1 wet hand towel
+
+** Weight distribution
+
+Left with 3L + 3L of water
+
+Pants: 6.4lbs
+- pants+belt
+- camera + lens + clip
+- phone + anker battery
+- notebook + pen + map
+- headlamp + multitool + gerber mini knife + pulsar watch
+- wet wipes + chap stick + hand sanitizer + kleenex
+- trail mix
+- wallet + bandana
+- hand warmers
+
+Pack: 29.8lbs
+- water: 7.8lbs
+  - Osprey 3L bladder, 1.6L remaining
+  - Platypus 4L bladder, 1.9L remaining
+- tent: ?
+- bag: ?
+- pad: ?
+
+
+** Packing
+I brought most, if not all, of the gear I'll need for the Big Bend trip, and my pack had a bit of space left in it. I just have a few concerns for that trip:
+- carrying enough food and water
+- maybe need to bring my bigger sleeping bag
+
+considered trying out my osprey mutant pack on the next practice trip, but i think its too small. will probably either use the REI pack again, or buy a new one.
+
+** Prep
+3-4 hours in the morning before leaving, finding and packing everything. should be faster next time.
+
+** Debrief
+Needed a 3-4 hour nap after getting home. spent 2-3 hours unpacking, cleaning, drying, photographing. another 1-2 hours recording notes, writing blog post
+
+* Hiking
+
+[[file:../pedernales-2019/IMG_9264.JPG]]
+
+/Foggy morning/
+
+<div id="8d9dbc45-1f72-4201-8472-5e06de45dfc4" style="height: 100%; width: 100%;" class="plotly-graph-div"></div>
+<script type="text/javascript" src="/js/pedernales-2019-tracks.js"></script>
+
+/Hike elevation profiles/
+
+According to my phone GPS, for all three hikes:
+- total distance = 7.47 + 1.32 + 4.50 = 13.3mi
+- total elevation gain = 453 + 143 + 221 = 817ft
+- total time = 3:34 + 1:16 + 3:13 = 8:03
+
+Since this was a quick, one-night weekend trip, and we both wanted to get back home early-ish, we kept the return hike relatively short. Still, with all three hikes, our distance and time were pretty close to what we'll need to do at Big Bend. The elevation gain falls pretty far short, but that's expected. I think we'll average about 2000ft of gain per day there.
+
+Cody's tracks differ a bit.
+
+soreness
+- mostly in right hip, adjusting hip belt vs shoulder straps helped limit pain
+- feet sore, but no problem
+
+iridium flare, venus, mars, jupiter. need a better stargazing app.
+
+[[file:../pedernales-2019/IMG_9270.JPG]]
+
+/Cody fording a river/
+
+** clothing
+
+* Camp
+
+[[file:../pedernales-2019/IMG_9260.JPG]]
+
+/The kitchen/
+
+setup: super easy with no wind
+
+teardown: salida poles kind of get caught in the grommets, but maybe fine to pull those segments out
+
+condensation: one dry washcloth almost enough to wipe most water off tent before packing
+
+tent storage: left with all three pieces rolled up together, stuffed in pack with no case. too hard to repack like that, without a big, flat, clean surface. easier option: use the footprint as the clean surface; roll the fly first, then roll the tent, then brush off the footprint, roll that, store in a case. also might help to have some light straps to tie these three things.
+
+cooking: water boiled pretty fast. cody's water ratio is improving
+- mountain house chili mac - tasty, good texture, kinda soupy
+- backpacker's pantry katmandu curry - boring, but filling, kinda soupy
+- mountain house egg breakfast - perfect ratio
+
+** sleep
+I slept terribly, it was way too cold for the nanowave 45 bag. In bed about 9p-6a, in and out of sleep all night. Woke up around 2a to pee, also put on every other layer I had. This is funny, because I have two pads and two bags, and brought the ligher/smaller/less effective choice for both. This was sort of a conscious choice, since I was trying to minimize weight and volume, and trying to test the gear I thought I'd bring to Big Bend. I actually brought all four of these things to Cody's before we left, intending to discuss options and decide then. In our hurry to leave with enough daylight left, I didn't get around to that, and stuck myself with my 3-season gear, in the dead of (Texas) winter. Bringing the appropriate options would have added about 20oz and maybe 3-4L, but I'm pretty sure I would have been totally comfortable. Anyway, I think it's good it worked out this way - that's the point of a shakedown hike, plus now I'll fully appreciate the value of carrying a bigger bag.
+
+starting clothes:
+feet: wigwam socks (comfortable)
+legs: smartwool base layer (pretty cold)
+core: ice breaker t shirt, smartwool base layer (pretty cold)
+head: wool buff, down hood (toasty)
+
+added 2a:
+core: uniqlo sweater, down jacket
+hands: gloves
+
+
+
+** weather
+pretty comfortable during the day
+
+low of 33 overnight
+
+(plot of temperature)
+
+presidio TX
+| date       | low | high |
+|------------+-----+------|
+| 2018/03/08 |  33 |   72 |
+| 2018/03/09 |  36 |   75 |
+| 2018/03/10 |  38 |   75 |
+| 2017/03/08 |  31 |   78 |
+| 2017/03/09 |  49 |   76 |
+| 2017/03/10 |  42 |   76 |
+| 2016/03/08 |  37 |   65 |
+| 2016/03/09 |  44 |   50 |
+| 2016/03/10 |  32 |   62 |
