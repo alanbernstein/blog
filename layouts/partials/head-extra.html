@@ -1,0 +1,16 @@
+<!-- math typesetting -->
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "math.html" . }}
+{{ end }}
+
+
+<!-- Bokeh -->
+{{ if .Params.bokeh }}
+{{ partial "bokeh.html" }}
+{{ end }}
+
+
+<!-- Plotly -->
+{{ if .Params.plotly }}
+{{ partial "plotly.html" }}
+{{ end }}
