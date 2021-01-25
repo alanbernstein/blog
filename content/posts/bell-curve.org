@@ -1,0 +1,128 @@
++++
+title = "Bell Curve Integral"
+author = "Alan Bernstein"
+date = 2010-02-09
+publishdate = 2017-10-26
+tags = [ "calculus", "math", "derivations" ]
++++
+
+Evaluating this integral requires using two nonstandard tricks (i.e. things not taught in calc 1).
+<!--more-->
+
+- evaluating the product of the integral and itself
+- using a nonlinear, 2D transformation of variables (actually just converting to polar coordinates).
+
+This can also be done in 2D cartesian coordinates, by using x and y, and the substitution $$y=sx$$ (and $$dy=sdx$$). This is just another trick for bringing one of the variables of integration down from the exponent to the coefficient, allowing easy integration of $$e^FdF$$.
+
+** Area under $$e^{-z^2}$$
+
+The bell curve integral:
+
+$$S = \int_{-\infty}^{\infty} e^{-z^2}dz$$
+
+Let's compute the square of S instead:
+
+$$S^2 = \int_{-\infty}^{\infty} e^{-z^2}dz \cdot \int_{-\infty}^{\infty} e^{-z^2}dz$$
+
+Swap out a dummy variable:
+
+$$ = \int_{-\infty}^{\infty} e^{-x^2}dx \cdot \int_{-\infty}^{\infty} e^{-y^2}dy$$
+
+Combine integrals:
+
+$$ = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} e^{-(x^2+y^2)}dxdy$$
+
+Convert from cartesian to polar coordinates, $$dA = dxdy = rdrd\theta$$
+
+$$ = \int_{0}^{2\pi} \int_{0}^{\infty} e^{-r^2}r dr d\theta$$
+
+Integrand doesn't depend on $$\theta$$:
+
+$$ = 2\pi \int_{0}^{\infty} e^{-r^2}r dr$$
+
+substitute $$s=r^2$$, $$2rdr=ds$$:
+
+$$ = \pi \int_{0}^{\infty} e^{-s}ds$$
+
+$$S^2 = \pi$$
+
+$$S = \sqrt{\pi} \blacksquare$$
+
+(ick, not sure how to right-align the tombstone symbol)
+
+** Shift
+
+$$S = \int e^{-(x-x_0)^2} dx$$
+
+# $$= \int e^{-(x^2 - 2xx_0 + x_0^2)} dx$$
+# $$= e^{-x_0^2}\int e^{-(x^2 - 2xx_0)} dx$$
+
+simply substitute $$y=x-x_0$$, $$dy=dx$$, giving
+
+$$S = \int e^{-y^2} dy = \sqrt{\pi} \blacksquare$$
+
+** Scale
+$$S = \int e^{-ax^2} dx = \int e^{-(\sqrt{a}x)^2} dx$$
+
+let $$y = \sqrt{a}x$$, or $$y^2 = ax^2$$, $$dx = dy/\sqrt{a}$$
+
+$$S = \frac{1}{\sqrt{a}}\int e^{-y^2} dy$$
+
+$$S = \sqrt{\frac{\pi}{a}} \blacksquare$$
+
+Or, for slightly different notation,
+
+$$S = \int e^{-(ax)^2} dx$$
+
+let y = ax, or y^2 = (ax)^2, dx = dy/a
+
+$$S = \frac{1}{a}\int e^{-y^2} dy$$
+
+$$S = \sqrt{\frac{\pi}{a^2}} = \frac{\sqrt{\pi}}{a} \blacksquare$$
+
+This shows that the coefficient for the normal distribution, $$e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$, should be the inverse of $$\sqrt{\pi \cdot 2\sigma^2}$$, or $$\frac{1}{\sqrt{\pi \cdot 2\sigma^2}}$$
+
+** General quadratic in exponent
+
+This comes about for, e.g., computing matched filter response for bell curve $$(\int e^{-a\tau^2}e^{-a(t-\tau)^2}d\tau)$$, or finding the probability distribution of a sum of Gaussian random variables. We can ignore the constant term, since it's just a multiplicative factor.
+
+$$S = \int e^{-(ax^2 + 2bx)}dx$$ 
+
+To complete the square, substitute $$y=\sqrt{a}x$$:
+
+$$S = \frac{1}{\sqrt{a}}\int e^{-\left(y^2 + \frac{2b}{\sqrt{a}}y\right)}dy$$
+
+multiply by $$1 = e^{-b^2/a}e^{b^2/a}$$ (add constant term to the quadratic exponent):
+
+$$S = \frac{1}{\sqrt{a}} e^{\frac{b^2}{a}}\int e^{-\left(y^2 + \frac{2b}{\sqrt{a}}y + \frac{b^2}{a}\right)}dy$$
+
+Factor:
+
+$$S = \frac{1}{\sqrt{a}} e^{\frac{b^2}{a}}\int e^{-\left(y + \frac{b}{\sqrt{a}}\right)^2}dy$$
+
+Substitute $$z = y+b/\sqrt{a}$$ to clarify:
+
+$$S = \frac{1}{\sqrt{a}} e^{\frac{b^2}{a}}\int e^{-z^2}dz$$
+
+$$S = \sqrt{\frac{\pi}{a}} e^{\frac{b^2}{a}}$$
+
+*** Summary
+
+$$S = \int e^{-(ax^2 + bx)}dx$$
+
+$$ = \int e^{-\left((\sqrt{a}x)^2+\frac{b}{\sqrt{a}}(\sqrt{a}x)+\frac{b^2}{4a}\right)}e^{\frac{b^2}{4a}}dx$$
+
+which suggests
+
+$$S = e^{\frac{b^2}{4a}}\int e^{-\left(\sqrt{a}x + \frac{b}{2\sqrt{a}}\right)^2}dx$$
+
+$$ = e^{\frac{b^2}{4a}}\int e^{-(\sqrt{a}u)^2}du = \frac{e^{\frac{b^2}{4a}}}{\sqrt{a}} \int e^{-v^2}dv$$
+
+or, with slightly different notation:
+
+$$S = e^{\frac{b^2}{4a}} \cdot \sqrt{\frac{\pi}{a}}$$ 
+
+** See also
+
+# - [matched filter](../matched-filter)  - TODO
+- [[../dirichlet-integral][dirichlet integral]] - another integration trick

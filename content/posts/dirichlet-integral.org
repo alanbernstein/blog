@@ -1,0 +1,90 @@
+#+TITLE: Dirichlet Integral
+#+AUTHOR: Alan Bernstein
+#+DATE: 2010-03-17
+#+PUBLISHDATE: 2017-11-02
+#+TAGS[]: math calculus derivation
+
+
+The [[https://en.wikipedia.org/wiki/Dirichlet_integral][Dirichlet integral]] can be evaluated with a neat trick. This post is nothing special, just a record of my own process of understanding how it works.
+
+# more
+
+This is the integral:
+
+$$\int_0^\infty \frac{\sin x}{x}dx = \frac{\pi}{2}$$
+
+This is easy to illustrate with a Fourier transform and Parseval's theorem: $$\frac{\sin x}{x} = \operatorname{sinc} x \xleftrightarrow{\mathscr{F}} \operatorname{rect} x$$, the easiest thing to integrate. More interestingly, it can also be done with [[../differentiation-under-integral][differentiation under the integral sign]] (see also "Liebnitz integral rule", "integration by parametric derivative", "order of integration"), by multiplying by an appropriate "auxiliary function" (a term I made up).
+
+Define 
+
+$$I(t) = \int_0^\infty e^{-tx}\frac{\sin x}{x}dx$$
+
+This is part one of the trick - define a problem that is more involved than the original problem, but includes it as a special case: $$I(t)$$ is equal to the Dirichlet integral for $$t=0$$. I like it because the new problem has a sort of higher dimensionality, but is also easier to solve.
+
+Anyway, differentiate $$I(t)$$ with respect to the auxiliary variable: 
+
+$$\frac{dI}{dt} = \frac{d}{dt} \int_0^\infty \left( e^{-tx}\frac{\sin x}{x} \right) dx$$
+
+$$\frac{dI}{dt} = \int_0^\infty \frac{d}{dt}\left( e^{-tx}\frac{\sin x}{x} \right) dx$$
+
+$$\frac{dI}{dt} = \int_0^\infty -x \left( e^{-tx}\frac{\sin x}{x} \right) dx$$
+
+$$\frac{dI}{dt} = -\int_0^\infty e^{-tx}\sin x dx$$
+
+And this is the second part: by adding the exponential term, then differentiating under the integral, we get rid of the pesky denominator term. 
+
+This can be evaluated with repeated integration by parts, or complex exponentials:
+
+$$\frac{dI}{dt} = -\frac{1}{t^2+1} $$
+
+And this is a well-known antiderivative:
+
+$$I(t) = -\int\frac{1}{t^2+1}dt = -\tan^{-1}(t) + c$$
+
+To determine $$c$$, note that $$I(\infty)=0$$ (since the exponential decays infinitely fast).
+
+$$I(\infty) = 0 = -\tan^{-1}(\infty) + c$$
+
+$$c = \tan^{-1}(\infty)$$
+
+$$c = \pi/2$$
+
+And finally,
+
+$$I(0) = -\tan^{-1}(0) + \pi/2$$
+
+$$I(0) = \pi/2 \blacksquare$$
+
+** Sinc powers
+# TODO
+
+When the sinc term is raised to a power, can we use the same method? You still get the $$1/x^k$$ cancellation, what comes after that?
+
+$$I_n(t) = \int_0^\infty e^{-tx}\left(\frac{\sin x}{x}\right)^ndx$$
+
+$$\frac{d^n}{dt} I_n(t) = \int_0^\infty \frac{d^n}{dt} e^{-tx}\left(\frac{\sin x}{x}\right)^ndx$$
+
+$$\frac{d^n}{dt} I_n(t) = (-1)^n \int_0^\infty e^{-tx} (\sin x)^ndx$$
+
+...
+
+
+# $$\frac{d}{dt} I_1(t) = -\frac{1}{t^2+1}$$
+
+# $$\frac{d^2}{dt} I_2(t) = \frac{2}{t^3+4t}$$
+
+# $$\frac{d^3}{dt}I_3(t) = -\frac{6}{t^4+10t^2+9}$$
+
+# $$\frac{d^4}{dt}I_4(t) = \frac{24}{t^5+20t^3+64t}$$
+
+# $$\frac{d^5}{dt}I_5(t) = -\frac{120}{t^6+35t^4+259t^2+225}$$
+
+# $$\frac{d^6}{dt}I_6(t) = \frac{720}{t^7+56t^5+784t^3+2304t}$$
+
+# $$\pi/2$$, $$\pi/2$$, $$3\pi/8$$, $$\pi/3$$, $$115\pi/384$$, $$11\pi/40$$
+
+
+** See also
+- [[../bell-curve][Bell curve integral]], another integration trick
+- http://www.math.purdue.edu/pow/spring2005/pdf/problem10.pdf
+- http://www.math.purdue.edu/pow/spring2005/pdf/solution10.pdf

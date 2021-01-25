@@ -1,0 +1,80 @@
+#+TITLE: A DIY appliance shutoff system
+#+AUTHOR: Alan Bernstein
+#+DATE: 2017-09-02
+#+PUBLISHDATE: 2017-11-17
+#+TAGS[]: DIY projects house electronics plumbing
+#+DRAFT: true
+
+I need a way to shut off an appliance if it's dumping water too fast for the drain, because reasons. I have a [[http://www.getfloodstop.com/][Floodstop]] for another appliance, it works well but it's pricey, and works with the water line instead of power, which is what I need. Tight space constraints prevent me from using something like [[https://www.amazon.com/gp/product/B00988NOV2][this]]. Guess that means I have to make it myself...
+
+** Ideas
+- disable water or power?
+- DIY float switch, integrated into standpipe
+- plumbing fixture to attach to standpipe
+
+** Version 1
+Ultimately, the simplest, cheapest thing won:
+
+1. Attach a tee fixture to the standpipe, as a makeshift overflow fitting. This was harder than it sounds, because 
+
+    - The 50-year-old cast-iron standpipe is a nonstandard size. There is no great way to attach modern PVC to this. Companies like [[https://www.fernco.com/plumbing/flexible-couplings][Fernco]] make flexible fittings for exactly this purpose, but getting the size right is critical - if it's not watertight, it doesn't work.
+    - There is very little vertical space in the drain box. Of course I could enlarge it, but if I'm going to start hacking at the drywall then that opens up a bunch other options for dealing with this. I want to leave the drywall as it is, for now.
+
+2. Overflow drains into a bucket with a float switch attached.
+3. Float switch connects to a relay.
+
+So if the drain backs up, it overflows into the bucket, lifting the switch, triggering the relay, shutting off the appliance.
+
+
+*** Final parts list:
+- Tee fitting ($12)
+- 2" PVC ($.25 ?)
+- 2" to 3/4" barb fitting ($.50 ?)
+- 3/4" hose ($10)
+- bucket ($3)
+- float switch ($1.50)
+- relay ($25)
+- miscellaneous wire, connectors, etc
+
+Total materials cost: about $50
+
+Total labor time: less than one hour
+
+Total design time: way too much
+
+Worth it? Who knows.
+
+
+** Pictures
+
+[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/0-simple-drain.jpg]]
+
+/How it looked before I started/
+
+[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/1-fixture-ideas.jpg]]
+
+/Everything I could find at the hardware store that might work/
+
+[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/2-rubber-fixture-plan.jpg]]
+
+/A better option, from a local shop, and the other fittings to get it to drain to the bucket/
+
+[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/3-drain-bucket-setup.jpg]]
+
+/The overflow setup/
+
+[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/4-full-setup.jpg]]
+
+/The full setup/
+
+[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/5-relay-setup.jpg]]
+
+/The relay setup/
+
+[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/6-hose-sizes.jpg]]
+
+/Hose size comparison/
+
+
+** Update 2021
+Got some expensive plumbing work done, no longer needed.
