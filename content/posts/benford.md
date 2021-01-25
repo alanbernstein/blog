@@ -49,6 +49,8 @@ And the linear counterpart:
 
 These charts illustrate both laws, as described above -- but I'll elaborate.
 
+### Graphical explanation, Benford's Law
+
 ![Figure 1: Log-uniform random data](/img/benford/figure1.png)
 _Figure 1: Log-uniform random data_
 
@@ -57,7 +59,15 @@ This is a set of three views of the same random data set, following a log-unifor
 - 1a shows that log-uniform data follows a logarithmically-decreasing trend, *when viewed in the linear domain*.
 - 1b shows that log-uniform data follows a constant trend, when viewed in the (arguably more appropriate) logarithmic domain.
 - 1c shows Benford's law directly, with bar heights corresponding to first-digit bias. Note that this shape closely resembles the shape of the distribution in 1a -- it isn't identical, because 1c kind of "layers" the histograms from each level of magnitude in 1a, into a new form that examines only first digits instead of all values.
-- 1d (aside from being kind of busy because I'm a bad graphic designer) shows where these "layers" come from. The black trace represents the determinstic values of the function first_digit(x) for all values of x in [1, 10000]. The green regions cover all numbers that start with 1, and they're widest -- that cumulatve width corresponds to the height of the bar for digit 1 in figure 1c. Red regions correspond to numbers that start with 2, with a more moderate cumulative width. Purple corresponds to 5, with a much smaller width, and similarly for all other digits.
+- 1d (aside from being kind of busy because I'm a bad graphic designer) shows where these "layers" come from. The black trace represents the determinstic values of the function first_digit(x) for all values of x in [1, 10000**. The green regions cover all numbers that start with 1, and they're widest -- that cumulatve width corresponds to the height of the bar for digit 1 in figure 1c. Red regions correspond to numbers that start with 2, with a more moderate cumulative width. Purple corresponds to 5, with a much smaller width, and similarly for all other digits.
+
+
+**This figure explains why Benford's Law is "obvious". It may be more clear to explain the logical progression of thought:**
+1. **This data follows a natural distribution -- log-uniform -- illustrated by the constant trend in the logarithmic domain (1b).**
+2. **This necessitates a logarithmic-decreasing trend in the linear domain (1a).**
+3. **This necessitates a logarithmic-decreasing trend in the first digits (1c, 1d).**
+
+### Graphical explanation, Drofben's Law
 
 And here are the corresponding charts for Drofben's law:
 
@@ -74,6 +84,7 @@ This is a set of three views of another random data set, following a linear-unif
 
 In the second case, these layers just reflect the counts of integers in ranges: |[1, 10)| = 9, |[10, 100)| = 90, |[100, 1000)| = 900, etc -- this seems almost too obvious to mention. But, that's what I was looking for -- a result that's surprising to an alien, logarithmic culture *should* be obvious to our linear minds.
 
+([code for charts](https://gist.github.com/alanbernstein/39cc97fc582cbb2cd30df59c40853129))
 
 ## The digits are not the value
 
