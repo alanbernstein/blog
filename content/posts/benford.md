@@ -9,6 +9,14 @@ tags: ["math", "counter-intuitive"]
 
 <!--more-->
 
+## TL;DR
+
+Ok, Benford's law isn't obvious. But what would the world look like if it were?
+
+Benford's law follows unavoidably from a certain type of probability distribution (uniform in the logarithmic domain), which happens to be common in real-world data. I can draw some charts that -- to me -- make this perfectly clear. Somehow, that doesn't make it any less surprising to learn. Go figure.
+
+I contend that the surprise comes from a lack of familiarity with the log-uniform distribution. What if we, as a society, internalized that distribution *instead* of the "usual" linear-uniform one? In this post, I explain what the counterpart of Benford's law would be in that case. It turns out, it's almost too obvious to mention. Which is the point.
+
 
 ## Benford's Law
 
