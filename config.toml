@@ -6,6 +6,7 @@ paginate = 50
 
 [params]
 slogan = "Overthinking the small things"
+imgPrefix = "https://alanbernstein.net/blog-static/img"
 
 [markup.goldmark.renderer]
 unsafe= true  # enable raw HTML in markdown

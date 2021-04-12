@@ -47,31 +47,31 @@ Worth it? Who knows.
 
 ** Pictures
 
-[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/0-simple-drain.jpg]]
+[[{{< imgPrefix >}}/diy-washer-alarm/0-simple-drain.jpg]]
 
 /How it looked before I started/
 
-[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/1-fixture-ideas.jpg]]
+[[{{< imgPrefix >}}/diy-washer-alarm/1-fixture-ideas.jpg]]
 
 /Everything I could find at the hardware store that might work/
 
-[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/2-rubber-fixture-plan.jpg]]
+[[{{< imgPrefix >}}/diy-washer-alarm/2-rubber-fixture-plan.jpg]]
 
 /A better option, from a local shop, and the other fittings to get it to drain to the bucket/
 
-[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/3-drain-bucket-setup.jpg]]
+[[{{< imgPrefix >}}/diy-washer-alarm/3-drain-bucket-setup.jpg]]
 
 /The overflow setup/
 
-[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/4-full-setup.jpg]]
+[[{{< imgPrefix >}}/diy-washer-alarm/4-full-setup.jpg]]
 
 /The full setup/
 
-[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/5-relay-setup.jpg]]
+[[{{< imgPrefix >}}/diy-washer-alarm/5-relay-setup.jpg]]
 
 /The relay setup/
 
-[[https://alanbernstein.net/blog-static/img/diy-washer-alarm/6-hose-sizes.jpg]]
+[[{{< imgPrefix >}}/diy-washer-alarm/6-hose-sizes.jpg]]
 
 /Hose size comparison/
 

@@ -59,7 +59,7 @@ These charts illustrate both laws, as described above -- but I'll elaborate.
 
 ### Graphical explanation, Benford's Law
 
-![Figure 1: Log-uniform random data](/img/benford/figure1.png)
+![Figure 1: Log-uniform random data]({{< imgPrefix >}}/benford/figure1.png)
 _Figure 1: Log-uniform random data_
 
 This is a set of three views of the same random data set, following a log-uniform distribution.
@@ -79,7 +79,7 @@ This is a set of three views of the same random data set, following a log-unifor
 
 And here are the corresponding charts for Drofben's law:
 
-![Figure 2: Linear-uniform random data](/img/benford/figure2.png)
+![Figure 2: Linear-uniform random data]({{< imgPrefix >}}/benford/figure2.png)
 _Figure 2: Linear-uniform random data_
 
 This is a set of three views of another random data set, following a linear-uniform distribution.
@@ -96,7 +96,7 @@ In the second case, these layers just reflect the counts of integers in ranges: 
 
 ## The digits are not the value
 
-![The treachery of digits: an homage to Magritte's The Treachery of Images, with "This is not a number" as a caption for the hexadecimal representation of the floating-point value NaN, "Not a Number"](/img/benford/treachery-of-digits-hex.png)
+![The treachery of digits: an homage to Magritte's The Treachery of Images, with "This is not a number" as a caption for the hexadecimal representation of the floating-point value NaN, "Not a Number"]({{< imgPrefix >}}/benford/treachery-of-digits-hex.png)
 _The treachery of digits, with apologies to [Magritte](https://en.wikipedia.org/wiki/The_Treachery_of_Images)... and [IEEE](https://en.wikipedia.org/wiki/NaN)_
 
 

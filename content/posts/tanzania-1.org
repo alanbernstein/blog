@@ -18,7 +18,7 @@ This is a very long blog post, split into five parts. Check out the [[https://al
 
 -----
 
-[[file:../tanzania/IMG_7422-270.jpg]]
+[[{{< imgPrefix >}}/tanzania/IMG_7422-270.jpg]]
 
 /Done!/
 
@@ -51,13 +51,13 @@ The River Place hikes were great for consistent training. I tried two other thin
 
 I knew hiking that same trail over and over again wasn't enough, so I hoped to make a few short trips to climb some more respectable mountains. There are plenty of options in the US, but I'm somehow drawn to Colorado, and I ended up taking two trips there over the summer. I summited Pikes Peak (14114 ft) with Andrea and Donna in July, and Mount Bierstadt (14065 ft) with Cody in August, after a work trip to Denver. Although I've done serious climbing hikes in the past, these were my first real experience with AMS. Sleeping at about 6000-7000 feet, with just a few days of acclimatisation, I started to feel the effects around 12000 feet. Mostly, mild headache and shortness of breath. The big problem was my inability to pace myself - I would keep exerting myself at normal levels, when my body couldn't handle it. I would stop for ten seconds, then push hard for another 30. I knew this was silly, but I also figured it wouldn't be a problem on Kilimanjaro, since the guides would be setting the pace, instead of me. This turned out to be correct, more or less.
 
-[[file:../tanzania/IMG_6070-pikes.JPG]]
+[[{{< imgPrefix >}}/tanzania/IMG_6070-pikes.JPG]]
 
 /Andrea and Donna on the way to Pikes Peak/
 
 The second Colorado trip, I was car camping for three days. This was just weeks before the Kilimanjaro trip, so I had most of my gear already. I brought my day pack, and most of the stuff I planned to carry in it, but not much else - somehow, I missed this opportunity to try out all the rest of my new gear. Anyway, I learned one big thing: the day pack I had been using was fine for a couple hours, but after wearing it all day, it was very uncomfortable.
 
-[[file:../tanzania/IMG_6451-colorado-camping.JPG]]
+[[{{< imgPrefix >}}/tanzania/IMG_6451-colorado-camping.JPG]]
 
 /Colorado car camping con Cody/
 
@@ -122,19 +122,19 @@ I bought a lot of it just before the trip, after deliberating on whether I neede
 
 I also borrowed an inflatable sit pad, plus a bunch of stuff sacks and carabiners, from Patsy.
 
-[[file:../tanzania/IMG_6580-packing-categorized.JPG]]
+[[{{< imgPrefix >}}/tanzania/IMG_6580-packing-categorized.JPG]]
 
 /All my stuff, minus my ebook reader. Analysis in [[../tanzania-5][part 5]]/
 
 ** Photography
 
-[[file:../tanzania/2018-10-03-07.02.55-packing-camera.jpg]]
+[[{{< imgPrefix >}}/tanzania/2018-10-03-07.02.55-packing-camera.jpg]]
 
 /Photography gear/
 
 Half of it I already had - the T6i, Tamron 10-24 f/3.5-4.5, Canon 50 f/1.8, and miscellaneous accessories - and I also got a few new toys. First, a [[https://www.peakdesign.com/products/capture][capture clip]], at the recommendation of a friend. Kind of pricey, but I'm glad I got it. Second, my first telephoto lens, a Canon 70-300 IS. If a safari isn't a good enough excuse to get a telephoto, then what is? It's a low/midrange lens, nothing fancy, but I still got some great shots with it. Finally, a Gorillapod, which I figured I would only use for night photos. I was right, and it was totally worth it. Without it, I wouldn't have gotten this:
 
-[[file:../tanzania/IMG_7178-ghost.JPG]]
+[[{{< imgPrefix >}}/tanzania/IMG_7178-ghost.JPG]]
 
 /I'm a ghost/
 
@@ -165,7 +165,7 @@ Some people recommend a level of mental preparation that I felt was unnecessary.
 ** Documents, etc
 I brought the obvious stuff: passport, flight info, insurance info, driver's license, credit card, debit card. Also, a few pages of info from Kandoo, and prescription info sheets. Other than that, and a small notebook, I tried to minimize paper. Instead I loaded a bunch of info onto my phone. Manuals, all the documents from Kandoo and my insurance, maps of the mountain, a handful of wikipedia page PDFs (like [[https://en.wikipedia.org/wiki/Mount_Kilimanjaro][this one]], which I read in full, one sleepless night), GPS tracks from my own hikes, and from others' Kili experiences. 
 
-[[file:../tanzania/2018-10-07-09.06.10-notebook.jpg]]
+[[{{< imgPrefix >}}/tanzania/2018-10-07-09.06.10-notebook.jpg]]
 
 /Warning: water-proof notebooks are NOT banana-proof/
 
@@ -177,13 +177,13 @@ Some person or website recommended getting your visa early; I was under the impr
 
 ** Consumables
 
-[[file:../tanzania/2018-09-15-10.46.49-packing-snacks.jpg]]
+[[{{< imgPrefix >}}/tanzania/2018-09-15-10.46.49-packing-snacks.jpg]]
 
 /Unsuspecting prey/
 
 I'm a hungry kind of guy, so when the packing lists included "Personal snacks", but my contact at Kandoo said it wasn't necessary, I erred on the side of caution. I packed about 30 snack bars, maybe 5000 calories worth, plus a pound of almonds, some candied ginger, and some jelly bellys. It felt like overkill, but I brought it all anyway. Also, a fresh, full-sized bottle of the best hot sauce, chipotle tabasco.
 
-[[file:../tanzania/2018-09-28-06.50.45-tabasco.jpg]]
+[[{{< imgPrefix >}}/tanzania/2018-09-28-06.50.45-tabasco.jpg]]
 
 /O ye, of little faith/
 
@@ -191,11 +191,11 @@ For toiletries, I just brought the usual, plus extra sunscreen and bug spray, tw
 
 Finally, a first aid kit and a repair kit. I left out some gauze and medical tape, and instead brought an ace bandage and two cold compresses.
 
-[[file:../tanzania/IMG_6584-packing-med.JPG]]
+[[{{< imgPrefix >}}/tanzania/IMG_6584-packing-med.JPG]]
 
 /Mostly self-explanatory/
 
-[[file:../tanzania/IMG_6586-packing-repair.JPG]]
+[[{{< imgPrefix >}}/tanzania/IMG_6586-packing-repair.JPG]]
 
 /Clips, straps, strips, snaps/
 

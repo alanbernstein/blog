@@ -69,7 +69,7 @@ void main() {
 
 With that blog post available, and a loose grasp of Mathematica syntax, it was easy enough to understand what's going on. It's a bit easier for me to grok in traditional notation:
 
-![Equation](https://alanbernstein.net/blog-static/img/shader-experiments/planewave-math-white.png)
+![Equation]({{< imgPrefix >}}/shader-experiments/planewave-math-white.png)
 <!-- 
 
 can't figure out how to use colors in katex+hugo
