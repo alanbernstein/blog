@@ -5,6 +5,10 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+cd public
+rm -rf assets categories css img js page posts tags
+cd ..
+
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 

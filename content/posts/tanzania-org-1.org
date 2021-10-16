@@ -4,6 +4,7 @@
 #+PUBLISHDATE: 2018-12-01
 #+TAGS[]: travel hiking photography journal trip backpacking
 #+PLOTLY: true
+#+DRAFT: true
 
 I climbed a mountain with [[http://andrearobertson.com/][Andrea]] and Donna. It took a lot of work.
 

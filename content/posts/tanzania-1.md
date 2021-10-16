@@ -199,7 +199,7 @@ Finally, a first aid kit and a repair kit. I left out some gauze and medical tap
 
 ![]({{< imgPrefix >}}/tanzania/IMG_6586-packing-repair.JPG)
 
-# Clips, straps, strips, snaps*
+*Clips, straps, strips, snaps*
 
 We had guides who could probably have solved any real problems we had on the hike, so maybe not necessary. I carry stuff like this around on a normal day, so I wasn't going to Africa without it.
 
