@@ -213,10 +213,10 @@ I got three prescriptions. Diamox for AMS, and atovaquone for malaria. With atov
 Finally, a handful of over-the-counter meds: Immodium AD, which I didn't use, but shared with others. Pepto Bismol, which I started eating like candy after my stomach had one rough day. Ibuprofen, which I was afraid to take, for fear of masking important pain signals. I did take a couple after the summit.
 
 ## Playlist
-Many people prepare a summit playlist, "Ain't no mountain high enough", etc. I needed only <a href="https://www.youtube.com/watch?v=FTQbiNvZqaY">one song</a>. A few other good tracks came to me during the hike though, so I'll record for posterity:
+Many people prepare a summit playlist, "Ain't no mountain high enough", etc. I needed only [one song](https://www.youtube.com/watch?v=FTQbiNvZqaY). A few other good tracks came to me during the hike though, so I'll record for posterity:
 
-- <a href="https://www.youtube.com/watch?v=mzDVaKRApcg">Higher and higher</a>
-- <a href="https://www.youtube.com/watch?v=4yk7M7aneCA">Green typewriters 10</a>, a sleepy track from my favorite band, because of one line: "When you're ready to come back down, I'll be waiting". Probably about drugs, but really, being that far up a mountain is its own high, so not inappropriate.
+- [Higher and higher](https://www.youtube.com/watch?v=mzDVaKRApcg)</a>
+- [Green typewriters 10](https://www.youtube.com/watch?v=4yk7M7aneCA), a sleepy track from my favorite band, because of one line: "When you're ready to come back down, I'll be waiting". Probably about drugs, but really, being that far up a mountain is its own high, so not inappropriate.
 - Anything from The Lion King. I hadn't realized how appropriate this would have been, as the movie is arguably "set" in Tanzania or maybe Kenya, Kili makes a brief appearance, and "Hakuna Matata" is actually a common Swahili phrase. At least, it is in the tourist experience.
 - Head, shoulders knees and toes. Yes the kids song. To remind you of everything that hurts. AMS headache, heavy pack on your shoulders, knees do all the climbing, toes compressed in your boots and blistering.
 

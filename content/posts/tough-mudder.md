@@ -1,25 +1,29 @@
-#+TITLE: Tough Mudder
-#+AUTHOR: Alan Bernstein
-#+DATE: 2012-10-06
-#+PUBLISHDATE: 2012-10-06
-#+TAGS[]: journal, race, wiki
+---
+title: "Tough Mudder"
+author: "Alan Bernstein"
+date: 2012-10-06
+publishdate: 2012-10-06
+tags: ["journal", "race", "wiki"]
+plotly: true
+---
+
 
 Sometimes I do these silly obstacle course races. One of them resulted in one of my nicknames, "No-challenge Bernstein".
 
-# TODO: fix formatting
+<!-- TODO: fix formatting -->
 
-# more
+<!--more-->
 
-* Tough mudder #2
+# Tough mudder #2
 2013/04/21, Longhorn River Ranch outside Austin, with Clark, Robert, Wesley.
 
 I have no photos of the course, because it's not worth carrying anything during these runs. 
 
-[[{{< imgPrefix >}}/tough-mudder/ToughMudder2013.jpg]]
+![]({{< imgPrefix >}}/tough-mudder/ToughMudder2013.jpg)
 
-/Finish line/
+*Finish line*
 
-** Overall
+## Overall
 A shorter course, warmer weather, no sprained fingers, and experience made the race much easier. Only one aid station had bananas, so I got kind of hungry - but we brought energy goo candy, which helped. Completion time of 3 hours (assume 10.25 miles: 3.4 mph, or 17.5 minute mile) was marginally better than previous time of 4 hours (assume 12 miles: 3 mph or 20 minute mile). I tried to learn some lessons last time, how well did I do in remembering those?
 
 - Wear more pads: well, the kneepads were irritating, so I took them off. Still had two elbow pads, and though there were slightly fewer belly crawl obstacles, I'm still glad I had both elbows covered.
@@ -34,11 +38,11 @@ My calves started cramping up after about 6-7 miles, turned out Clark and Wesley
 
 This time it was warm enough to shower after, plus they gave us clif bars at the end - I was pretty surprised when they didnt give us something small to eat at the end in October.
 
-** Obstacles
+## Obstacles
 
-[[{{< imgPrefix >}}/tough-mudder/tough-mudder-map-austin-2013.png]]
+![]({{< imgPrefix >}}/tough-mudder/tough-mudder-map-austin-2013.png)
 
-/Our course map/
+*Our course map*
 
 Minor obstacles:
 
@@ -91,14 +95,14 @@ I overdid the sprint for this one, this time. By the time my velocity reached ze
 - Electroshock Therapy (Run through electrified wires)
 This was the only obstacle where I actually had to take a few seconds to psych myself up for it. We considered running with linked arms, but decided against it in the end. I fell about 75% of the way through, and unlike last time, I just got myself up and kept going. Only one bad shock, I think. I felt residual spasms for a few minutes, weird.
 
-* Tough mudder #1
+# Tough mudder #1
 2012/10/06, Cross Creek Ranch outside Austin, with Eric.
 
-[[{{< imgPrefix >}}/tough-mudder/ToughMudder2012.jpg]]
+![]({{< imgPrefix >}}/tough-mudder/ToughMudder2012.jpg)
 
-/Finish line/
+*Finish line*
 
-** Overall
+## Overall
 It was fun, but my teammate couldn't jog most of it, so we walked, finished in 4 hours (slow), and had no trouble with most of the obstacles, because we weren't worn down from running. I know that's supposed to be part of the challenge, but it was really the obstacles that appealed to me, more than the running aspect. Seems like your completion time is 95% based on your running speed, not your obstacle completion time, which is what I'm best at. If there were an event that were more focused on obstacles, with the whole course full of smaller obstacles, and a bunch of major obstacles scattered throughout, and a total distance of 3-5 miles, I think that would be more fun. There were 2 "minor" obstacles in this event, one wading through some water, and one getting out of a 15ft deep mud pit. the mud pit would have been almost impossible without help, but it was always full of people helping each other out.
 
 It was pretty cold, around 50F the whole time, and I would have been fine in that temperature, except I wasnt running/jogging most of the time because my teammate couldnt handle it. I was shivering for probably the whole last mile. There was a cold shower at the end, definitely didn't even consider doing that, but they were giving out foil blankets at the finish line, so no big deal.
@@ -107,7 +111,7 @@ There were spectators all over the place, especially the electric obstacles and 
 
 Water/portapotty stations every 2 miles. Every other one had a pile of bananas you could grab.
 
-** Preparation/Gear
+## Preparation/Gear
 I sprained 2 fingers 5 days before the event, ring and pinky on my right (dominant) hand. Wore a splint on the ring finger, didn't expect it to last the whole race, but it did. It was only a real problem for two obstacles, the two real hand grip ones ("just the tip" and "funky monkey"). Might have been possible for me to do berlin walls #2 (12ft) alone without it, but hard to say.
 
 Ate a slightly larger than normal breakfast. Brought a pocketful of sugar gel packets, glad I had them, but the bananas at the water stations were more than enough. Definitely didn't need any water in 50 degrees, but if it had been 80, I dunno.
@@ -128,16 +132,16 @@ if I do it again, and I don't wear some goofy costume, I'll wear:
 - goggles, or something to allow me to wipe mud out of my eyes - maybe a couple of hankerchiefs, in ziplock bags, in a back-pocket
 - gloves, 2 elbow pads, 2 knee pads
 
-** Obstacles 
+## Obstacles 
 The website says that some obstacles have pools of ice water underneath (punishment if you fail), but we only had ice water at the arctic enema obstacle - nowhere else.
 
 This course didn't have some of the more fun-looking obstacles - firewalker, greased lightning, gauntlet, ball shrinker, twinkle toes, glacier.
 
-** Our obstacles
+## Our obstacles
 
-[[{{< imgPrefix >}}/tough-mudder/tough-mudder-map-austin-2012.png]]
+![]({{< imgPrefix >}}/tough-mudder/tough-mudder-map-austin-2012.png)
 
-/Our course map/
+*Our course map*
 
 If you ever hear someone call me "no-challenge" Bernstein, it's because of this post.
 
@@ -186,5 +190,14 @@ A lot of people got pulled up at the end by people sitting at the top. I just ma
 - Electroshock (run 40ft through hundreds of live wires, uneven ground with pools of water)
 Definitely the worst obstacle, right before the finish line. I got about 70% through it, then fell down, not sure if I tripped or just lost control of my legs, then I think somebody pulled me up and I made it through the rest of the way. Most of the wires hit my legs, I had trouble walking for a few minutes after.
 
-* Other adventure races
-ROC, spartan sprint, CASA run, adventure scavenger hunt
+# Other adventure races
+
+
+races
+- 2012/10 tough mudder 1
+- 2013/04 tough mudder 2
+- 2013/09 ROC
+- 2015/05 spartan sprint
+- 2015/09 CASA run
+- 2017/04 adventure scavenger hunt 
+- 2020/02/01 terrain race
