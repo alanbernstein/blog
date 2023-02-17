@@ -49,6 +49,7 @@ Even more upgrades:
 - Permanently-mounted, minimal, DIY rear fender (TODO photo)
 - [Removable front fender](https://www.rei.com/product/718391/sks-beavertail-fenders). I was planning to design and build my own until I found this, which took a surprising amount of searching. There are many variations on the removable bike fender, but this is the only one I know of that provides full protection, and has a sturdy mount.
 
+Had to design and print a tool: https://www.thingiverse.com/thing:4831058
 
 
 ![Overview]({{< imgPrefix >}}/bike-microoptimization/IMG_5258.25)
@@ -70,10 +71,14 @@ Even more upgrades:
 ![Ortlieb QR seatbag]({{< imgPrefix >}}/bike-microoptimization/IMG_5261.25)
 
 ![QR rack mount]({{< imgPrefix >}}/bike-microoptimization/IMG_5270.25)
+
+<!-- replace with the new aluminum one
+TODO
+
 metalwork pics
 ![AR dog basket]({{< imgPrefix >}}/bike-microoptimization/IMG_5???.25)
 
-<!-- replace with the new aluminum one
+
 ![U-lock rack mount]({{< imgPrefix >}}/bike-microoptimization/IMG_5269.25)
 -->
 

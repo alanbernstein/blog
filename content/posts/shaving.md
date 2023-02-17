@@ -1,8 +1,9 @@
 ---
 title: How to Really Squeeze the Value Out of Your Overpriced Razor Blades
+author: "Alan Bernstein"
 date: 2014-08-12
 draft: false
-tags: ["experiment", "micro-optimization"]
+tags: ["science", "experiment", "micro-optimization"]
 ---
 
 I read somewhere that a strip of denim works pretty well for stropping razor blades, which supposedly extends their effective life. It seemed like a good experiment opportunity.

@@ -98,7 +98,7 @@ After the bus arrived, we sat around for an hour or so, waiting for permits, che
 
 Next, we walked, a lot.
 
-I'll just be honest - the hiking part was easy. Being fit helps, I'm sure. Knowing what to expect from high altitude was great. All the training I did was worth it. That said, the days of the trek were [../tough-mudder#obstacles](no challenge). Summit night, however, was the most physically taxing activity I have ever experienced. We'll get to that soon enough.
+I'll just be honest - the hiking part was easy. Being fit helps, I'm sure. Knowing what to expect from high altitude was great. All the training I did was worth it. That said, the days of the trek were [no challenge](../tough-mudder). Summit night, however, was the most physically taxing activity I have ever experienced. We'll get to that soon enough.
 
 It was early on the first day that I noticed Joanne carrying an e-cigarette. She was the only one of the nine hikers that didn't make it to at least Stella Point.
 
