@@ -35,3 +35,44 @@ Some links:
 - example markdown syntax at https://github.com/cntrump/hugo-notepadium/blob/master/exampleSite/content/post/math-typesetting.md (live at https://themes.gohugo.io//theme/hugo-notepadium/post/math-typesetting/)
 - https://github.com/cntrump/hugo-notepadium/commit/2452327e2b9b28f208389424d1f27abe12ec1672
 - https://github.com/cntrump/hugo-notepadium/issues/68
+
+
+## Examples
+
+https://katex.org/docs/supported.html
+
+$$ \left( F \right) $$
+
+$$ \lbrack F \rbrack $$
+
+$$ \lbrace F \rbrace $$
+
+$$ \underleftrightarrow{AB} $$
+
+$$\underbrace{AB}$$
+
+$$ \left(\LARGE{AB}\right) $$
+
+$$ \begin{matrix}
+   a & b \\\
+   c & d
+\end{matrix}$$
+
+$$ \begin{array}{ccc}
+a & b & c \\\
+d & e & f \\\
+g & h & i \end{array}$$
+
+$$ \begin{bmatrix}
+  1 & 0 \\\
+  0 & 1
+\end{bmatrix}$$
+
+$$ f\relax{x}
+= \int_{-\infty}^\infty
+    f\hat\xi\,e^{2 \pi i \xi x}
+    d\xi $$
+
+\null\hfill \blacksquare
+
+
