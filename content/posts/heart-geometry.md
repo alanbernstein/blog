@@ -9,17 +9,19 @@ plotly: true
 
 My take on the parametric heart shape concept.
 
-<div class="menubar" id="menubar" style="margin: 0 auto;">
+<!-- more -->
+
+<div class="menubar" id="menubar" style="margin: 0 auto; width: 90% ">
 <span class="slider-container">
 <span class="slider-name">A</span>:
-<span id="a-label" class="slider-label">90</span>
-<input type="range" min="0" max="180" step="1" value="90" class="slider" id="a-slider" onchange="updateSliders('a');" autocomplete='off'>
+<span id="a-label" class="slider-label" style="display:inline-block; width:2em">90</span>
+<input type="range" min="60" max="120" step="1" value="90" class="slider" id="a-slider" onchange="updateSliders('a');" autocomplete='off'>
 </span>
 
 <span class="slider-container">
 <span class="slider-name">B</span>:
-<span id="b-label" class="slider-label">90</span>
-<input type="range" min="0" max="180" step="1" value="90" class="slider" id="b-slider" onchange="updateSliders('b');" autocomplete='off'>
+<span id="b-label" class="slider-label" style="display:inline-block; width:2em">90</span>
+<input type="range" min="60" max="120" step="1" value="90" class="slider" id="b-slider" onchange="updateSliders('b');" autocomplete='off'>
 </span>
 </div>
 
@@ -104,7 +106,7 @@ My take on the parametric heart shape concept.
 
 </script>
 
-<!-- more -->
+
 
 There are many ways to use math to define a [heart curve](https://mathworld.wolfram.com/HeartCurve.html). The second one on that page, a sextic algebraic equation, $$(x^2+y^2-1)^3 + x^2y^3 = 0$$, strikes me as one of the most elegant, but it's not very... adjustable.
 
@@ -118,7 +120,7 @@ I wanted to revisit this concept. I like it because it is one obvious way to gen
 
 I considered how to represent, and construct, a two-circle-two-line heart shape for a while. What are the input parameters? Where is the shape relative to the origin? What are the base points, which I can use to define other geometric objects?
 
-I thought about this in UX terms: what are the most useful, descriptive parameters to describe such a shape? In retrospect, the answer seems obvious, at least for the constraints that I've imposed. The answer: specify the acute, interior angle at the bottom vertex (alpha), and the acute, exterior angle at the top vertex (beta). Since the two vertices are the salient points on the curve, for simplicity, just put the bottom one at (0, 0), and the top one at (0, 1).
+I thought about this in UX terms: what are the most useful, descriptive parameters to describe such a shape? In retrospect, the answer seems obvious, at least for the constraints that I've imposed. The answer: specify the acute, interior angle at the bottom vertex ($$\alpha$$), and the acute, exterior angle at the top vertex ($$\beta$$). Since the two vertices are the salient points on the curve, for simplicity, just put the bottom one at (0, 0), and the top one at (0, 1).
 
 ![]({{< imgPrefix >}}/heart-curve/heart-notebook-23.jpg)
 
@@ -139,7 +141,7 @@ Compute $$\red a = 90\degree - \red\alpha/2$$, where <span style="color:red">a</
 
 Similarly, $${\color{blue}b} = 90\degree - {\color{blue}\beta}/2$$ is the angular direction from the top vertex to the upper end of the right circular lobe.
 
-![]({{< imgPrefix >}}/heart-curve/heart-stage-0.png)
+![]({{< imgPrefix >}}/heart-curve/heart-step-1.png)
 
 Extend the lines <span style="color:red">L1</span>, <span style="color:blue">L2</span> defined by those directions.
 
