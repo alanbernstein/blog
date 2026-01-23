@@ -1,0 +1,35 @@
++++
+title = "My Custom Gearwall"
+author = "Alan Bernstein"
+date = 2025-08-31
+publishdate = 2025-08-31
+tags = [ "diy", "woodworking", "3dprinting" ]
+draft = true
++++
+
+
+|   $ | amount | item                         | # per 4x4 panel | purpose                        |
+|-----+--------+------------------------------+-----------------+--------------------------------|
+|  80 |      1 | 8'x4' 3/4" maple plywood     | .5              | main panel                     |
+|  35 |      1 | 4'x2' 3/4" plywood           | .25             | french cleat                   |
+|  40 |      4 | t-track                      | 3               | peg rails                      |
+|   5 |      4 | 1/4" wingnut                 | 2-4             | track end stop                 |
+|   8 |    100 | 8-32 x 3/4" metal screw      | ~15             | fasten rail to wood            |
+|   8 |    100 | 8-32 nut                     | ~15             | fasten rail to wood            |
+|   8 |    100 | #10 washers                  | ~15             | fasten rail to wood            |
+|  10 |    100 | #8 1 1/4" construction screw | ~5              | fasten french cleat to plywood |
+|  10 |    100 | #8 2" construction screw     | ~6              | fasten french cleat to studs   |
+|-----+--------+------------------------------+-----------------+--------------------------------|
+|  12 |     20 | t-track bolts 1/4" x 2.5"    | 10-20           | small pegs                     |
+|  14 |     20 | t-track bolts 5/16" x 3.5"   | 10-20           | large pegs                     |
+|  16 |   25ft | heat shrink 3/8"             | 3-6ft           | thread cover                   |
+| 1.5 |      8 | 5/16-18 nut                  | -               | end caps on pegs               |
+
+
+Price per panel (4'x4', 12' of rail): $84
+Price per peg: $0.86
+panel + 15 pegs: $96
+
+alternative: cheaper plywood instead of the nicely finished maple stuff.
+alternative: #8 x 1/2" wood screw (100x), instead of 8-32 screws+nuts+washers. I prefer using nuts rather than trusting the 1/2" screws in 3/8" of plywood.
+alternative: vinyl tubing, instead of heat shrink. Much more work to install onto the bolts.

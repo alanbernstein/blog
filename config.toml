@@ -2,7 +2,9 @@ baseURL = "http://alanbernstein.github.io"
 languageCode = "en-us"
 title = "Micro-optimist"
 theme = "notepadium"
-paginate = 50
+
+[pagination]
+    pagersize = 50
 
 [params]
 slogan = "Overthinking the small things"

@@ -3,7 +3,6 @@ title = "Line Segment Intersection"
 author = "Alan Bernstein"
 date = 2023-02-23
 publishdate = 2023-02-23
-draft = true
 tags = [ "latex", "math", "derivation", "geometry" ]
 +++
 
@@ -85,7 +84,7 @@ $$t_b = \frac{(y_1 - y_2)(x_1 - x_3) + (x_2 - x_1)(y_1 - y_3)}{(x_4 - x_3)(y_1 -
 So there we have it. Wasn't too difficult was it? If you're like me, you'll want to see if you can reproduce the equations yourself. You may very well end up with a different result, but remember that doesn't necessarily mean it's wrong; algebraically it could be equal to the solution here.
 
 ## Interpreting the results
-So, how do we interpret the results of plugging in the $x$ and $y$ values of our lines into the above equations?
+So, how do we interpret the results of plugging in the $$x$$ and $$y$$ values of our lines into the above equations?
 
 - Segment intersection: If $$0 \leq t_a \leq 1$$ and $$0 \leq t_b \leq 1$$ then the line segments intersect. The point of intersection can be found by simply plugging either of the resulting $$t$$-values into its associated line equation.
 - General intersection: If the values of either $$t$$ fall outside of $$[0,1]$$ then they represent the intersection point of the infinite representation of the lines (that is, not between their defined points).
